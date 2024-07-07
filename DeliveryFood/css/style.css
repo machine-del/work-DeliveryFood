@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 124px;
+}
+
+.header-box {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 1200px; 
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+}
+
+footer {
+    height: 156px;
+}
+
+.footer-box {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    flex-grow: 1;
+}
